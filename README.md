@@ -36,11 +36,20 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 ## 🖥️ Previa del Notebook.
 
 El contenido del notebook está dividido en secciones 6 secciones en total que pueden accederse desde un índice:
+
 ![Imagen_indice]()
 
 - 💾 Importación y exploración de datos.
+  
+![Imagen_indice]()
+
 - 🧮 Cálculos solicitados, complementarios y exploratorios.
+
+![Imagen_indice]()
+
 - 🧾 Informe análisis de rendimiento.
+
+![Imagen_indice]()
   
 
 Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
@@ -87,11 +96,11 @@ Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 
 ---
 
-## ▶️ Ejecutar en Google Colab.
+## 🌐🔗 Ejecutar en Google Colab.
 
 Haz clic en el siguiente botón para abrir directamente el notebook:
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam_FINAL_informe_con_graficos.ipynb)
+[![▶️Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam_FINAL_informe_con_graficos.ipynb)
 
 
 ## 👩‍💻 Persona desarrolladora del proyecto.  

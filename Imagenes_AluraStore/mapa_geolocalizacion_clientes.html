@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1501c6c2798530eb1783e71e7ea39029 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1501c6c2798530eb1783e71e7ea39029" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1501c6c2798530eb1783e71e7ea39029 = L.map(
+                "map_1501c6c2798530eb1783e71e7ea39029",
+                {
+                    center: [4.60971, -74.08175],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98e4620c4357ed8e5c95ad98c110d265 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_98e4620c4357ed8e5c95ad98c110d265.addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var marker_6199a3dc5e07ecba5e078da288b5743e = L.marker(
+                [4.53389, -75.68111],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_a9849fd471a4cfb26acf73a1ec174bdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4b332a6bdd22df1e6b93a5794000ec7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_20fd8acbf438e523f361347665c09192 = $(`<div id="html_20fd8acbf438e523f361347665c09192" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Armenia.<br><br><b>🏪 Tienda 1:</b> $4,615,700.00 (0.34%)<br><b>🏪 Tienda 2:</b> $3,363,200.00 (0.24%)<br><b>🏪 Tienda 3:</b> $3,980,300.00 (0.29%)<br><b>🏪 Tienda 4:</b> $283,700.00 (0.07%)<br><br><b>📆 Año 2020:</b> $5,382,100<br><b>📆 Año 2021:</b> $5,500,300<br><b>📆 Año 2022:</b> $1,135,400<br><b>📆 Año 2023:</b> $225,100<br><b>🔝 Mayor venta:</b> <u>2021.</u><br><br><b>💵 Total facturado:</b> $12,242,900.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_a4b332a6bdd22df1e6b93a5794000ec7.setContent(html_20fd8acbf438e523f361347665c09192);
+            
+        
+
+        marker_6199a3dc5e07ecba5e078da288b5743e.bindPopup(popup_a4b332a6bdd22df1e6b93a5794000ec7)
+        ;
+
+        
+    
+    
+            marker_6199a3dc5e07ecba5e078da288b5743e.bindTooltip(
+                `<div>
+                     Armenia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6199a3dc5e07ecba5e078da288b5743e.setIcon(icon_a9849fd471a4cfb26acf73a1ec174bdf);
+            
+    
+            var marker_b58c1457451020a109f758a3756f11a2 = L.marker(
+                [10.96854, -74.78132],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_6396c12fb38a8d016e4341c96c6f6c41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8edc09ca1f8304edae5a3fe5a564b786 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5260db2f3e36b98bf26e650586242ffe = $(`<div id="html_5260db2f3e36b98bf26e650586242ffe" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Barranquilla.<br><br><b>🏪 Tienda 1:</b> $32,907,700.00 (2.54%)<br><b>🏪 Tienda 2:</b> $27,741,300.00 (2.26%)<br><b>🏪 Tienda 3:</b> $36,768,500.00 (3.82%)<br><b>🏪 Tienda 4:</b> $34,623,000.00 (3.25%)<br><br><b>📆 Año 2020:</b> $48,804,300<br><b>📆 Año 2021:</b> $41,620,300<br><b>📆 Año 2022:</b> $32,795,400<br><b>📆 Año 2023:</b> $8,820,500<br><b>🔝 Mayor venta:</b> <u>2020.</u><br><br><b>💵 Total facturado:</b> $132,040,500.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_8edc09ca1f8304edae5a3fe5a564b786.setContent(html_5260db2f3e36b98bf26e650586242ffe);
+            
+        
+
+        marker_b58c1457451020a109f758a3756f11a2.bindPopup(popup_8edc09ca1f8304edae5a3fe5a564b786)
+        ;
+
+        
+    
+    
+            marker_b58c1457451020a109f758a3756f11a2.bindTooltip(
+                `<div>
+                     Barranquilla
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b58c1457451020a109f758a3756f11a2.setIcon(icon_6396c12fb38a8d016e4341c96c6f6c41);
+            
+    
+            var marker_f0e7b63259bc793c82be2a31caa6c653 = L.marker(
+                [4.60971, -74.08175],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_e8cc2ea1dbc5813c8adae4c436e3c1b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30faa21039ac656cb2997bf0ae05fb0b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a69ed27424e6ba0c30306caf6ead6bef = $(`<div id="html_a69ed27424e6ba0c30306caf6ead6bef" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Bogotá.<br><br><b>🏪 Tienda 1:</b> $440,005,000.00 (40.81%)<br><b>🏪 Tienda 2:</b> $479,959,200.00 (45.68%)<br><b>🏪 Tienda 3:</b> $475,562,100.00 (42.00%)<br><b>🏪 Tienda 4:</b> $419,332,000.00 (35.32%)<br><br><b>📆 Año 2020:</b> $570,984,200<br><b>📆 Año 2021:</b> $584,437,600<br><b>📆 Año 2022:</b> $535,839,900<br><b>📆 Año 2023:</b> $123,596,600<br><b>🔝 Mayor venta:</b> <u>2021.</u><br><br><b>💵 Total facturado:</b> $1,814,858,300.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_30faa21039ac656cb2997bf0ae05fb0b.setContent(html_a69ed27424e6ba0c30306caf6ead6bef);
+            
+        
+
+        marker_f0e7b63259bc793c82be2a31caa6c653.bindPopup(popup_30faa21039ac656cb2997bf0ae05fb0b)
+        ;
+
+        
+    
+    
+            marker_f0e7b63259bc793c82be2a31caa6c653.bindTooltip(
+                `<div>
+                     Bogotá
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0e7b63259bc793c82be2a31caa6c653.setIcon(icon_e8cc2ea1dbc5813c8adae4c436e3c1b1);
+            
+    
+            var marker_2714fe79e4d02a8780a8b86b4a51c410 = L.marker(
+                [7.12539, -73.1198],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_793a7fa95924dd7b6fbd5c89d56c1d64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3f566a07667273f7186e2753baecdc3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31fd859987bf72a05ee3ff2071e9e490 = $(`<div id="html_31fd859987bf72a05ee3ff2071e9e490" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Bucaramanga.<br><br><b>🏪 Tienda 1:</b> $17,579,200.00 (1.49%)<br><b>🏪 Tienda 2:</b> $23,895,600.00 (1.80%)<br><b>🏪 Tienda 3:</b> $23,538,900.00 (2.08%)<br><b>🏪 Tienda 4:</b> $25,559,600.00 (2.49%)<br><br><b>📆 Año 2020:</b> $23,624,700<br><b>📆 Año 2021:</b> $31,366,600<br><b>📆 Año 2022:</b> $30,656,300<br><b>📆 Año 2023:</b> $4,925,700<br><b>🔝 Mayor venta:</b> <u>2021.</u><br><br><b>💵 Total facturado:</b> $90,573,300.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_b3f566a07667273f7186e2753baecdc3.setContent(html_31fd859987bf72a05ee3ff2071e9e490);
+            
+        
+
+        marker_2714fe79e4d02a8780a8b86b4a51c410.bindPopup(popup_b3f566a07667273f7186e2753baecdc3)
+        ;
+
+        
+    
+    
+            marker_2714fe79e4d02a8780a8b86b4a51c410.bindTooltip(
+                `<div>
+                     Bucaramanga
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2714fe79e4d02a8780a8b86b4a51c410.setIcon(icon_793a7fa95924dd7b6fbd5c89d56c1d64);
+            
+    
+            var marker_892d2d2966dc67636c56b9db598d771e = L.marker(
+                [3.43722, -76.5225],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_7bab2568522b67389e317feecaadb558 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04f12114f19fd14412708e07ab70ab7b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_370b7488728864250bfc60e46aaf74d3 = $(`<div id="html_370b7488728864250bfc60e46aaf74d3" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Cali.<br><br><b>🏪 Tienda 1:</b> $154,493,700.00 (15.46%)<br><b>🏪 Tienda 2:</b> $118,257,600.00 (12.38%)<br><b>🏪 Tienda 3:</b> $109,287,600.00 (9.71%)<br><b>🏪 Tienda 4:</b> $124,487,200.00 (11.92%)<br><br><b>📆 Año 2020:</b> $157,377,000<br><b>📆 Año 2021:</b> $141,193,300<br><b>📆 Año 2022:</b> $158,714,600<br><b>📆 Año 2023:</b> $49,241,200<br><b>🔝 Mayor venta:</b> <u>2022.</u><br><br><b>💵 Total facturado:</b> $506,526,100.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_04f12114f19fd14412708e07ab70ab7b.setContent(html_370b7488728864250bfc60e46aaf74d3);
+            
+        
+
+        marker_892d2d2966dc67636c56b9db598d771e.bindPopup(popup_04f12114f19fd14412708e07ab70ab7b)
+        ;
+
+        
+    
+    
+            marker_892d2d2966dc67636c56b9db598d771e.bindTooltip(
+                `<div>
+                     Cali
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_892d2d2966dc67636c56b9db598d771e.setIcon(icon_7bab2568522b67389e317feecaadb558);
+            
+    
+            var marker_323f0a2ebb22bbf648478630df4dfd44 = L.marker(
+                [10.39972, -75.51444],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_c75cc9ee9e46f8b99f71f320315dc7bd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0664c378946acc4c743ef112144ac283 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7cf7e8e5e3987b9804505d24f7ec2c87 = $(`<div id="html_7cf7e8e5e3987b9804505d24f7ec2c87" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Cartagena.<br><br><b>🏪 Tienda 1:</b> $22,296,700.00 (1.65%)<br><b>🏪 Tienda 2:</b> $21,548,300.00 (1.69%)<br><b>🏪 Tienda 3:</b> $34,144,100.00 (2.71%)<br><b>🏪 Tienda 4:</b> $24,387,600.00 (1.88%)<br><br><b>📆 Año 2020:</b> $24,662,000<br><b>📆 Año 2021:</b> $36,051,700<br><b>📆 Año 2022:</b> $39,951,200<br><b>📆 Año 2023:</b> $1,711,800<br><b>🔝 Mayor venta:</b> <u>2022.</u><br><br><b>💵 Total facturado:</b> $102,376,700.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_0664c378946acc4c743ef112144ac283.setContent(html_7cf7e8e5e3987b9804505d24f7ec2c87);
+            
+        
+
+        marker_323f0a2ebb22bbf648478630df4dfd44.bindPopup(popup_0664c378946acc4c743ef112144ac283)
+        ;
+
+        
+    
+    
+            marker_323f0a2ebb22bbf648478630df4dfd44.bindTooltip(
+                `<div>
+                     Cartagena
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_323f0a2ebb22bbf648478630df4dfd44.setIcon(icon_c75cc9ee9e46f8b99f71f320315dc7bd);
+            
+    
+            var marker_651fa954129b95f82c84956a031efa5a = L.marker(
+                [7.89391, -72.50782],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_4ecbd26bc0b76be18615314642ac611c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_891597e264e7bebb576ffc5e9353b55b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fec132707a92cd2e093a8b9334733387 = $(`<div id="html_fec132707a92cd2e093a8b9334733387" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Cúcuta.<br><br><b>🏪 Tienda 1:</b> $37,879,500.00 (4.46%)<br><b>🏪 Tienda 2:</b> $28,991,500.00 (2.14%)<br><b>🏪 Tienda 3:</b> $25,165,500.00 (2.22%)<br><b>🏪 Tienda 4:</b> $7,332,600.00 (0.55%)<br><br><b>📆 Año 2020:</b> $36,472,600<br><b>📆 Año 2021:</b> $26,230,800<br><b>📆 Año 2022:</b> $28,431,500<br><b>📆 Año 2023:</b> $8,234,200<br><b>🔝 Mayor venta:</b> <u>2020.</u><br><br><b>💵 Total facturado:</b> $99,369,100.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_891597e264e7bebb576ffc5e9353b55b.setContent(html_fec132707a92cd2e093a8b9334733387);
+            
+        
+
+        marker_651fa954129b95f82c84956a031efa5a.bindPopup(popup_891597e264e7bebb576ffc5e9353b55b)
+        ;
+
+        
+    
+    
+            marker_651fa954129b95f82c84956a031efa5a.bindTooltip(
+                `<div>
+                     Cúcuta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_651fa954129b95f82c84956a031efa5a.setIcon(icon_4ecbd26bc0b76be18615314642ac611c);
+            
+    
+            var marker_10982a0763cf6cc06c60b8c3af07d57a = L.marker(
+                [3.8653, -67.9239],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_602c73292138564463c2695a1b3cdd88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dffc5bf8aeba3ba78edf4086531c3464 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39ba1aeb9a9bd9a95a156bc5a461a3da = $(`<div id="html_39ba1aeb9a9bd9a95a156bc5a461a3da" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Inírida.<br><br><b>🏪 Tienda 1:</b> $2,722,500.00 (0.37%)<br><b>🏪 Tienda 2:</b> $2,504,600.00 (0.19%)<br><b>🏪 Tienda 3:</b> $1,333,700.00 (0.09%)<br><b>🏪 Tienda 4:</b> $1,527,100.00 (0.11%)<br><br><b>📆 Año 2020:</b> $1,354,700<br><b>📆 Año 2021:</b> $1,856,300<br><b>📆 Año 2022:</b> $4,197,900<br><b>📆 Año 2023:</b> $679,000<br><b>🔝 Mayor venta:</b> <u>2022.</u><br><br><b>💵 Total facturado:</b> $8,087,900.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_dffc5bf8aeba3ba78edf4086531c3464.setContent(html_39ba1aeb9a9bd9a95a156bc5a461a3da);
+            
+        
+
+        marker_10982a0763cf6cc06c60b8c3af07d57a.bindPopup(popup_dffc5bf8aeba3ba78edf4086531c3464)
+        ;
+
+        
+    
+    
+            marker_10982a0763cf6cc06c60b8c3af07d57a.bindTooltip(
+                `<div>
+                     Inírida
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_10982a0763cf6cc06c60b8c3af07d57a.setIcon(icon_602c73292138564463c2695a1b3cdd88);
+            
+    
+            var marker_b2a95f986068e2196ddc1c805e5128cb = L.marker(
+                [-4.21528, -69.94056],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_0ff4360b0f9baa26508bece0fcce9a02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08e0e0fd0dc62a64aca17e543f737c51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_968d4b765ba275fd7c44f47645cdcb1e = $(`<div id="html_968d4b765ba275fd7c44f47645cdcb1e" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Leticia.<br><br><b>🏪 Tienda 1:</b> $14,669,800.00 (1.42%)<br><b>🏪 Tienda 2:</b> $16,159,000.00 (1.79%)<br><b>🏪 Tienda 3:</b> $19,212,800.00 (1.56%)<br><b>🏪 Tienda 4:</b> $17,108,300.00 (1.43%)<br><br><b>📆 Año 2020:</b> $24,758,400<br><b>📆 Año 2021:</b> $21,665,800<br><b>📆 Año 2022:</b> $15,653,200<br><b>📆 Año 2023:</b> $5,072,500<br><b>🔝 Mayor venta:</b> <u>2020.</u><br><br><b>💵 Total facturado:</b> $67,149,900.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_08e0e0fd0dc62a64aca17e543f737c51.setContent(html_968d4b765ba275fd7c44f47645cdcb1e);
+            
+        
+
+        marker_b2a95f986068e2196ddc1c805e5128cb.bindPopup(popup_08e0e0fd0dc62a64aca17e543f737c51)
+        ;
+
+        
+    
+    
+            marker_b2a95f986068e2196ddc1c805e5128cb.bindTooltip(
+                `<div>
+                     Leticia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b2a95f986068e2196ddc1c805e5128cb.setIcon(icon_0ff4360b0f9baa26508bece0fcce9a02);
+            
+    
+            var marker_ad3e8d5e928a464bdacd9b1bcc8eca0d = L.marker(
+                [5.06889, -75.51738],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_364746307d8f7dade809d2293ba5b52d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acbdc408183f01c927f06684edae2e08 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0d740a0dfff9d9864c0de20ee38791f = $(`<div id="html_c0d740a0dfff9d9864c0de20ee38791f" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Manizales.<br><br><b>🏪 Tienda 1:</b> $8,027,600.00 (0.58%)<br><b>🏪 Tienda 2:</b> $3,539,900.00 (0.26%)<br><b>🏪 Tienda 3:</b> $6,501,800.00 (0.48%)<br><b>🏪 Tienda 4:</b> $1,298,600.00 (0.09%)<br><br><b>📆 Año 2020:</b> $3,647,500<br><b>📆 Año 2021:</b> $9,114,000<br><b>📆 Año 2022:</b> $6,606,400<br><b>📆 Año 2023:</b> $0<br><b>🔝 Mayor venta:</b> <u>2021.</u><br><br><b>💵 Total facturado:</b> $19,367,900.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_acbdc408183f01c927f06684edae2e08.setContent(html_c0d740a0dfff9d9864c0de20ee38791f);
+            
+        
+
+        marker_ad3e8d5e928a464bdacd9b1bcc8eca0d.bindPopup(popup_acbdc408183f01c927f06684edae2e08)
+        ;
+
+        
+    
+    
+            marker_ad3e8d5e928a464bdacd9b1bcc8eca0d.bindTooltip(
+                `<div>
+                     Manizales
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ad3e8d5e928a464bdacd9b1bcc8eca0d.setIcon(icon_364746307d8f7dade809d2293ba5b52d);
+            
+    
+            var marker_c836cc40fc8f7905327ee3efaf4d7fec = L.marker(
+                [6.25184, -75.56359],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_2da47f0100ae01d885048737dfcf0716 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab9057007f093a2118e0a91b53afc52f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_acd21bbd9eae32bd9ec10248a808fb76 = $(`<div id="html_acd21bbd9eae32bd9ec10248a808fb76" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Medellín.<br><br><b>🏪 Tienda 1:</b> $296,858,100.00 (29.49%)<br><b>🏪 Tienda 2:</b> $297,246,700.00 (26.74%)<br><b>🏪 Tienda 3:</b> $250,580,600.00 (21.31%)<br><b>🏪 Tienda 4:</b> $251,983,800.00 (20.49%)<br><br><b>📆 Año 2020:</b> $308,032,200<br><b>📆 Año 2021:</b> $388,914,500<br><b>📆 Año 2022:</b> $328,261,800<br><b>📆 Año 2023:</b> $71,460,700<br><b>🔝 Mayor venta:</b> <u>2021.</u><br><br><b>💵 Total facturado:</b> $1,096,669,200.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_ab9057007f093a2118e0a91b53afc52f.setContent(html_acd21bbd9eae32bd9ec10248a808fb76);
+            
+        
+
+        marker_c836cc40fc8f7905327ee3efaf4d7fec.bindPopup(popup_ab9057007f093a2118e0a91b53afc52f)
+        ;
+
+        
+    
+    
+            marker_c836cc40fc8f7905327ee3efaf4d7fec.bindTooltip(
+                `<div>
+                     Medellín
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c836cc40fc8f7905327ee3efaf4d7fec.setIcon(icon_2da47f0100ae01d885048737dfcf0716);
+            
+    
+            var marker_d553c5f973db22999a3a520a9b75a0d5 = L.marker(
+                [2.9273, -75.28189],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_118285097f0a4944f11498adc0e80b1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02f8fc6cfc416a71027ddeadadd88823 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_038868b8d1ee0fc81be084f53bd931f5 = $(`<div id="html_038868b8d1ee0fc81be084f53bd931f5" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Neiva.<br><br><b>🏪 Tienda 1:</b> $3,494,000.00 (0.26%)<br><b>🏪 Tienda 2:</b> $3,839,400.00 (0.29%)<br><b>🏪 Tienda 3:</b> $4,359,500.00 (0.31%)<br><b>🏪 Tienda 4:</b> $9,205,100.00 (0.74%)<br><br><b>📆 Año 2020:</b> $9,365,200<br><b>📆 Año 2021:</b> $5,426,200<br><b>📆 Año 2022:</b> $5,867,700<br><b>📆 Año 2023:</b> $238,900<br><b>🔝 Mayor venta:</b> <u>2020.</u><br><br><b>💵 Total facturado:</b> $20,898,000.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_02f8fc6cfc416a71027ddeadadd88823.setContent(html_038868b8d1ee0fc81be084f53bd931f5);
+            
+        
+
+        marker_d553c5f973db22999a3a520a9b75a0d5.bindPopup(popup_02f8fc6cfc416a71027ddeadadd88823)
+        ;
+
+        
+    
+    
+            marker_d553c5f973db22999a3a520a9b75a0d5.bindTooltip(
+                `<div>
+                     Neiva
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d553c5f973db22999a3a520a9b75a0d5.setIcon(icon_118285097f0a4944f11498adc0e80b1c);
+            
+    
+            var marker_92a45c4d9bc7a69c76b8e09959dcdffd = L.marker(
+                [1.21361, -77.28111],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_80aa0e122b7788485015cd5ffa02e793 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9db87a3bb213bad26dcc983d10b67e36 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bc6a3ed3ca07167e0c0b6330c14eeb3e = $(`<div id="html_bc6a3ed3ca07167e0c0b6330c14eeb3e" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Pasto.<br><br><b>🏪 Tienda 1:</b> $14,996,400.00 (1.12%)<br><b>🏪 Tienda 2:</b> $12,800,100.00 (0.99%)<br><b>🏪 Tienda 3:</b> $6,801,300.00 (0.69%)<br><b>🏪 Tienda 4:</b> $14,416,500.00 (1.13%)<br><br><b>📆 Año 2020:</b> $18,667,200<br><b>📆 Año 2021:</b> $13,590,700<br><b>📆 Año 2022:</b> $15,353,900<br><b>📆 Año 2023:</b> $1,402,500<br><b>🔝 Mayor venta:</b> <u>2020.</u><br><br><b>💵 Total facturado:</b> $49,014,300.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_9db87a3bb213bad26dcc983d10b67e36.setContent(html_bc6a3ed3ca07167e0c0b6330c14eeb3e);
+            
+        
+
+        marker_92a45c4d9bc7a69c76b8e09959dcdffd.bindPopup(popup_9db87a3bb213bad26dcc983d10b67e36)
+        ;
+
+        
+    
+    
+            marker_92a45c4d9bc7a69c76b8e09959dcdffd.bindTooltip(
+                `<div>
+                     Pasto
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92a45c4d9bc7a69c76b8e09959dcdffd.setIcon(icon_80aa0e122b7788485015cd5ffa02e793);
+            
+    
+            var marker_1be8225f1eb3faa240027b110c64c48f = L.marker(
+                [4.81333, -75.69611],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_af61b4ba696b4c8318ecebd0c4f61d5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3de7f029b6d469d72e8b1d75bf1d5c47 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_205028e65cc80d029d0f150d5cbb3ce8 = $(`<div id="html_205028e65cc80d029d0f150d5cbb3ce8" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Pereira.<br><br><b>🏪 Tienda 1:</b> $56,214,300.00 (5.86%)<br><b>🏪 Tienda 2:</b> $43,073,800.00 (3.70%)<br><b>🏪 Tienda 3:</b> $62,504,500.00 (5.56%)<br><b>🏪 Tienda 4:</b> $64,134,700.00 (7.05%)<br><br><b>📆 Año 2020:</b> $63,523,100<br><b>📆 Año 2021:</b> $74,769,700<br><b>📆 Año 2022:</b> $65,015,000<br><b>📆 Año 2023:</b> $22,619,500<br><b>🔝 Mayor venta:</b> <u>2021.</u><br><br><b>💵 Total facturado:</b> $225,927,300.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_3de7f029b6d469d72e8b1d75bf1d5c47.setContent(html_205028e65cc80d029d0f150d5cbb3ce8);
+            
+        
+
+        marker_1be8225f1eb3faa240027b110c64c48f.bindPopup(popup_3de7f029b6d469d72e8b1d75bf1d5c47)
+        ;
+
+        
+    
+    
+            marker_1be8225f1eb3faa240027b110c64c48f.bindTooltip(
+                `<div>
+                     Pereira
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1be8225f1eb3faa240027b110c64c48f.setIcon(icon_af61b4ba696b4c8318ecebd0c4f61d5d);
+            
+    
+            var marker_9b3c0644fa560eb5f507ffb7523a8ba5 = L.marker(
+                [11.54444, -72.90722],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_cb2b835f57b1c505db569dc0e6c17441 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2051952c5ae3f5c21d888fae92285105 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5110f9467e744d834bf33880c40e636c = $(`<div id="html_5110f9467e744d834bf33880c40e636c" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Riohacha.<br><br><b>🏪 Tienda 1:</b> $18,512,700.00 (1.91%)<br><b>🏪 Tienda 2:</b> $12,656,400.00 (1.18%)<br><b>🏪 Tienda 3:</b> $19,025,900.00 (1.49%)<br><b>🏪 Tienda 4:</b> $23,684,700.00 (2.24%)<br><br><b>📆 Año 2020:</b> $27,053,600<br><b>📆 Año 2021:</b> $20,490,800<br><b>📆 Año 2022:</b> $20,793,800<br><b>📆 Año 2023:</b> $5,541,500<br><b>🔝 Mayor venta:</b> <u>2020.</u><br><br><b>💵 Total facturado:</b> $73,879,700.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_2051952c5ae3f5c21d888fae92285105.setContent(html_5110f9467e744d834bf33880c40e636c);
+            
+        
+
+        marker_9b3c0644fa560eb5f507ffb7523a8ba5.bindPopup(popup_2051952c5ae3f5c21d888fae92285105)
+        ;
+
+        
+    
+    
+            marker_9b3c0644fa560eb5f507ffb7523a8ba5.bindTooltip(
+                `<div>
+                     Riohacha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b3c0644fa560eb5f507ffb7523a8ba5.setIcon(icon_cb2b835f57b1c505db569dc0e6c17441);
+            
+    
+            var marker_37f6a2605cb6fd8d06d2987e050d6b5c = L.marker(
+                [11.24079, -74.19904],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_6bb052eb348f0ed4806ff6e1f52c9f00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9a50bf5492c6ce285015b28794c308e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05e9a1e48a1fbdacb005018eca846b09 = $(`<div id="html_05e9a1e48a1fbdacb005018eca846b09" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Santa Marta.<br><br><b>🏪 Tienda 1:</b> $13,198,300.00 (1.16%)<br><b>🏪 Tienda 2:</b> $13,829,300.00 (1.48%)<br><b>🏪 Tienda 3:</b> $12,854,300.00 (1.32%)<br><b>🏪 Tienda 4:</b> $13,218,600.00 (1.22%)<br><br><b>📆 Año 2020:</b> $11,285,300<br><b>📆 Año 2021:</b> $13,053,700<br><b>📆 Año 2022:</b> $23,637,300<br><b>📆 Año 2023:</b> $5,124,200<br><b>🔝 Mayor venta:</b> <u>2022.</u><br><br><b>💵 Total facturado:</b> $53,100,500.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_c9a50bf5492c6ce285015b28794c308e.setContent(html_05e9a1e48a1fbdacb005018eca846b09);
+            
+        
+
+        marker_37f6a2605cb6fd8d06d2987e050d6b5c.bindPopup(popup_c9a50bf5492c6ce285015b28794c308e)
+        ;
+
+        
+    
+    
+            marker_37f6a2605cb6fd8d06d2987e050d6b5c.bindTooltip(
+                `<div>
+                     Santa Marta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_37f6a2605cb6fd8d06d2987e050d6b5c.setIcon(icon_6bb052eb348f0ed4806ff6e1f52c9f00);
+            
+    
+            var marker_a84dde6e1b96060c5e3323b3183dd830 = L.marker(
+                [4.57937, -74.21682],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_0e28d4ad34e56d4c3ce9c8c46a81f2c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c289adeb75c43e65f2a441c2836f1a9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7290b35ea53c8a683b329a778cdbb53a = $(`<div id="html_7290b35ea53c8a683b329a778cdbb53a" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Soacha.<br><br><b>🏪 Tienda 1:</b> $4,126,000.00 (0.51%)<br><b>🏪 Tienda 2:</b> $2,240,700.00 (0.16%)<br><b>🏪 Tienda 3:</b> $2,802,000.00 (0.20%)<br><b>🏪 Tienda 4:</b> $3,149,000.00 (0.22%)<br><br><b>📆 Año 2020:</b> $1,279,100<br><b>📆 Año 2021:</b> $4,211,800<br><b>📆 Año 2022:</b> $5,983,700<br><b>📆 Año 2023:</b> $843,100<br><b>🔝 Mayor venta:</b> <u>2022.</u><br><br><b>💵 Total facturado:</b> $12,317,700.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_3c289adeb75c43e65f2a441c2836f1a9.setContent(html_7290b35ea53c8a683b329a778cdbb53a);
+            
+        
+
+        marker_a84dde6e1b96060c5e3323b3183dd830.bindPopup(popup_3c289adeb75c43e65f2a441c2836f1a9)
+        ;
+
+        
+    
+    
+            marker_a84dde6e1b96060c5e3323b3183dd830.bindTooltip(
+                `<div>
+                     Soacha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a84dde6e1b96060c5e3323b3183dd830.setIcon(icon_0e28d4ad34e56d4c3ce9c8c46a81f2c7);
+            
+    
+            var marker_4057a31606482ac533361d508c72fd38 = L.marker(
+                [10.46314, -73.25322],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_e1264e1794200106068ff966ab4fc307 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bb543f5a0e135a1121d30295506e92b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8cbe9f452930e1828a94fa8978a88dc = $(`<div id="html_b8cbe9f452930e1828a94fa8978a88dc" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Valledupar.<br><br><b>🏪 Tienda 1:</b> $1,121,300.00 (0.08%)<br><b>🏪 Tienda 2:</b> $1,099,800.00 (0.14%)<br><b>🏪 Tienda 3:</b> $2,608,200.00 (0.19%)<br><b>🏪 Tienda 4:</b> $1,057,000.00 (0.08%)<br><br><b>📆 Año 2020:</b> $2,199,100<br><b>📆 Año 2021:</b> $1,807,800<br><b>📆 Año 2022:</b> $1,640,800<br><b>📆 Año 2023:</b> $238,600<br><b>🔝 Mayor venta:</b> <u>2020.</u><br><br><b>💵 Total facturado:</b> $5,886,300.00<br><b>📈 Tendencia general (2020–2022):</b> 📉</div>`)[0];
+                popup_9bb543f5a0e135a1121d30295506e92b.setContent(html_b8cbe9f452930e1828a94fa8978a88dc);
+            
+        
+
+        marker_4057a31606482ac533361d508c72fd38.bindPopup(popup_9bb543f5a0e135a1121d30295506e92b)
+        ;
+
+        
+    
+    
+            marker_4057a31606482ac533361d508c72fd38.bindTooltip(
+                `<div>
+                     Valledupar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4057a31606482ac533361d508c72fd38.setIcon(icon_e1264e1794200106068ff966ab4fc307);
+            
+    
+            var marker_750471a58b884addc236d8ec8e809716 = L.marker(
+                [4.142, -73.62664],
+                {
+}
+            ).addTo(map_1501c6c2798530eb1783e71e7ea39029);
+        
+    
+            var icon_8c901edbd238c221fa75386d3bc601a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d62dcc3c2b11c6371d511858674961b4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f1edf2ff1d730a88e8fee0e2bcad0b5f = $(`<div id="html_f1edf2ff1d730a88e8fee0e2bcad0b5f" style="width: 100.0%; height: 100.0%;"><b>🛒 Ventas por tienda y año.</b><br><br><b>👥 Cliente:</b> Villavicencio.<br><br><b>🏪 Tienda 1:</b> $7,161,900.00 (0.53%)<br><b>🏪 Tienda 2:</b> $3,597,100.00 (0.27%)<br><b>🏪 Tienda 3:</b> $988,000.00 (0.10%)<br><b>🏪 Tienda 4:</b> $1,586,600.00 (0.12%)<br><br><b>📆 Año 2020:</b> $3,482,700<br><b>📆 Año 2021:</b> $2,812,400<br><b>📆 Año 2022:</b> $6,916,100<br><b>📆 Año 2023:</b> $122,400<br><b>🔝 Mayor venta:</b> <u>2022.</u><br><br><b>💵 Total facturado:</b> $13,333,600.00<br><b>📈 Tendencia general (2020–2022):</b> 📈</div>`)[0];
+                popup_d62dcc3c2b11c6371d511858674961b4.setContent(html_f1edf2ff1d730a88e8fee0e2bcad0b5f);
+            
+        
+
+        marker_750471a58b884addc236d8ec8e809716.bindPopup(popup_d62dcc3c2b11c6371d511858674961b4)
+        ;
+
+        
+    
+    
+            marker_750471a58b884addc236d8ec8e809716.bindTooltip(
+                `<div>
+                     Villavicencio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_750471a58b884addc236d8ec8e809716.setIcon(icon_8c901edbd238c221fa75386d3bc601a7);
+            
+</script>
+</html>

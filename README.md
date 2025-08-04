@@ -87,7 +87,22 @@ Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 #### 6. 🌍 Mapa Geolocalización de Clientes
 [Haz clic aquí para ver el mapa interactivo](https://htmlpreview.github.io/?https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/main/Imagenes_AluraStore/mapa_geolocalizacion_clientes.html)
 ```
+## 👩‍💻 Personas desarrolladoras del proyecto.  
 
+<img src="https://github.com/user-attachments/assets/f9a42f94-e38f-46c7-909b-41f080896356" width="110px" style="border-radius: 10px;">
+
+
+
+
+**Loida Eunice García Dimas.**  
+Alumna del programa **Oracle Next Education** de **Alura Latam.**  
+Inscrita en el curso **Principiantes en Programación G8-ONE.**  
+
+## 📜 Licencia.  
+Este proyecto es de **propiedad exclusiva de Loida Eunice García Dimas**.  
+Queda **prohibida** la reproducción, distribución o modificación total o parcial sin la autorización expresa de la autora.  
+
+© 2024 Loida Eunice García Dimas - **Todos los derechos reservados**.  
 ---
 
 ## 📄 Licencia

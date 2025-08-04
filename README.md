@@ -29,24 +29,6 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 ## 🖥️ Imagen Distintiva del Proyecto.
 ![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/Imagen_distintiva_alurastore.png)
----
-
-## 🛠️ Tecnologías utilizadas.
-
-- Python 3
-- Pandas
-- Matplotlib
-- Seaborn
-- Folium
-- Jupyter Notebook / Google Colab
-
----
-
-## ▶️ Ejecutar en Google Colab.
-
-Haz clic en el siguiente botón para abrir directamente el notebook:
-
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam_FINAL_informe_con_graficos.ipynb)
 
 ---
 
@@ -87,7 +69,37 @@ Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 #### 6. 🌍 Mapa Geolocalización de Clientes
 [Haz clic aquí para ver el mapa interactivo](https://htmlpreview.github.io/?https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/main/Imagenes_AluraStore/mapa_geolocalizacion_clientes.html)
 ```
-## 👩‍💻 Personas desarrolladoras del proyecto.  
+
+---
+## 🛠️ Tecnologías utilizadas.
+
+- Python 3.
+- NumPy.
+- Pandas.
+- Matplotlib:
+  pyplot.
+  cm.
+  ticker.
+  lines.
+  offsetbox.
+  image.
+- Seaborn.
+- Folium.
+- itertools (zip_longest).
+- Pillow (PIL).
+- urllib.request.
+- Jupyter Notebook / Google Colab
+
+---
+
+## ▶️ Ejecutar en Google Colab.
+
+Haz clic en el siguiente botón para abrir directamente el notebook:
+
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam_FINAL_informe_con_graficos.ipynb)
+
+
+## 👩‍💻 Persona desarrolladora del proyecto.  
 
 <img src="https://github.com/user-attachments/assets/f9a42f94-e38f-46c7-909b-41f080896356" width="110px" style="border-radius: 10px;">
 
@@ -102,7 +114,7 @@ Inscrita en el curso **Principiantes en Programación G8-ONE.**
 Este proyecto es de **propiedad exclusiva de Loida Eunice García Dimas**.  
 Queda **prohibida** la reproducción, distribución o modificación total o parcial sin la autorización expresa de la autora.  
 
-© 2024 Loida Eunice García Dimas - **Todos los derechos reservados**.  
+© 2025 Loida Eunice García Dimas - **Todos los derechos reservados**.  
 ---
 
 ## 📄 Licencia

@@ -33,24 +33,27 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 ---
 
-## 🖥️ Previa del Notebook.
+## 🖥️ Preview del Notebook.
 
-El contenido del notebook está dividido en secciones 6 secciones en total que pueden accederse desde un índice:
+👉 El contenido del notebook está dividido en secciones 6 secciones en total que pueden accederse desde un índice:
 
 ![Imagen_indice]()
 
-- 💾 Importación y exploración de datos.
+🟢 Importación y exploración de datos.
   
-![Imagen_indice]()
+![Imagen_calculos]()
 
-- 🧮 Cálculos solicitados, complementarios y exploratorios.
-
-![Imagen_indice]()
-
-- 🧾 Informe análisis de rendimiento.
+🟢 Cálculos solicitados, complementarios y exploratorios.
 
 ![Imagen_indice]()
-  
+
+🟢 Informe análisis de rendimiento.
+
+![Imagen informe]()
+
+🟢 Gráficos. A los cuales se accede desde el índice en la sección del informe.
+
+![Imagen graficos]()
 
 Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 

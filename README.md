@@ -1,4 +1,4 @@
-# 📊 Análisis de Rendimiento de Tiendas - Alura Store LATAM.
+# 📒 CHALLENGE : Alura Store LATAM - Análisis de Rendimiento de Tiendas.
 
 Este repositorio contiene un informe analítico elaborado en Jupyter Notebook con el objetivo de apoyar al Sr. Juan, dueño de una cadena de tiendas, a tomar una decisión estratégica respecto a cuál de sus cuatro tiendas mantener o vender. El análisis se basa en datos de ventas, productos, clientes, métodos de pago y logística desde el año 2020 al 2023.
 Todo el contenido es para fines educativos y obtener nota final para el curso:  

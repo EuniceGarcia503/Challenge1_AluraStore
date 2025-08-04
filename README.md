@@ -3,19 +3,29 @@
 ## 🚧 Estado del proyecto. 
 **En construcción.**  
 
-Este repositorio contiene un informe analítico elaborado en Jupyter Notebook con el objetivo de apoyar al Sr. Juan, dueño de una cadena de tiendas, a tomar una decisión estratégica respecto a cuál de sus cuatro tiendas mantener o vender. El análisis se basa en datos de ventas, productos, clientes, métodos de pago y logística desde el año 2020 al 2023.
-Todo el contenido es para fines educativos y obtener nota final para el curso:  
----
+## 📌 Descripción del proyecto.
+Este desafío fue diseñado para aplicar de manera práctica los conocimientos adquiridos en los siguientes cursos:  
+- **Python para Data Science: Primeros Pasos.**  
+- **Python para Data Science: Trabajar con funciones,estructuras de datos y excepciones.**  
+- **Git y GitHub: Repositorio, commit y versiones.**  
 
-##  Objetivo.
+El objetivo fue realizar un análisis de rendimiento para evaluar el desempeño comercial y operativo de cuatro tiendas pertenecientes a la cadena AluraStore LATAM, propiedad del Sr. Juan. Como resultado, se debía presentar un informe que recomendara cuál de las tiendas debería conservar o vender para emprender en otro negocio. 
 
-Evaluar el desempeño comercial y operativo de las tiendas, identificando:
-- Ingresos anuales y totales por tienda.
-- Productos y categorías más vendidos.
-- Experiencia de compra (valoración).
-- Riesgos de concentración y solapamiento de clientes.
-- Canibalización entre tiendas.
-- Ineficiencias logísticas y comerciales.
+Se solicitó basar el análisis en los registros de ventas de cada tienda, y consistió en extraer:
+
+- Ventas totales por tienda.
+
+- Ventas por categoría y tienda.
+
+- Productos más y menos vendidos por tienda.
+
+- Valoración media por tienda.
+
+- Costo promedio de envío por tienda.
+
+- Análisis complementarios y exploratorios para revelar información no evidente.
+
+- Gráficos que faciliten la comprensión de los hallazgos.
 
 ---
 

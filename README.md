@@ -30,19 +30,18 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 - Gráficos que faciliten la comprensión de los hallazgos.
 
-## 🖥️ Imagen Distintiva del Proyecto.
-![Banner del proyecto]()
 
 ---
 
-## 🖥️ 🖼️ 📁 Preview Estructura del Notebook.
+## 🖥️ Previa del Notebook.
 
-El análisis está dividido en secciones:
+El contenido del notebook está dividido en secciones 6 secciones en total que pueden accederse desde un índice:
+![Imagen_indice]()
 
 - 💾 Importación y exploración de datos.
 - 🧮 Cálculos solicitados, complementarios y exploratorios.
 - 🧾 Informe análisis de rendimiento.
----
+  
 
 Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 
@@ -69,24 +68,22 @@ Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 ```
 
 ---
-## 🛠️ Tecnologías utilizadas.
 
-- Python 3.
-- NumPy.
-- Pandas.
-- Matplotlib:
-  pyplot.
-  cm.
-  ticker.
-  lines.
-  offsetbox.
-  image.
-- Seaborn.
-- Folium.
-- itertools (zip_longest).
-- Pillow (PIL).
-- urllib.request.
-- Jupyter Notebook / Google Colab
+
+## 🧰 Tecnologías utilizadas
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=fff)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=fff)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-007ACC?style=for-the-badge&logo=matplotlib&logoColor=fff)
+![Seaborn](https://img.shields.io/badge/Seaborn-76B900?style=for-the-badge&logoColor=fff)
+![Folium](https://img.shields.io/badge/Folium-77B829?style=for-the-badge&logoColor=fff)
+![Pillow (PIL)](https://img.shields.io/badge/Pillow%20(PIL)-FF6F61?style=for-the-badge&logoColor=fff)
+![urllib](https://img.shields.io/badge/urllib.request-006400?style=for-the-badge&logoColor=fff)
+![itertools](https://img.shields.io/badge/itertools-4682B4?style=for-the-badge&logoColor=fff)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=000)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=fff)
+
 
 ---
 

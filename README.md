@@ -28,7 +28,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 - Gráficos que faciliten la comprensión de los hallazgos.
 
 ## 🖥️ Imagen Distintiva del Proyecto.
-! [Banner del proyecto] (https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/Imagen_distintiva_alurastore.png)
+![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/Imagen_distintiva_alurastore.png)
 ---
 
 ## 🛠️ Tecnologías utilizadas.

@@ -1,10 +1,10 @@
-# 📊 Análisis de Rendimiento de Tiendas - Alura Store LATAM
+# 📊 Análisis de Rendimiento de Tiendas - Alura Store LATAM.
 
 Este repositorio contiene un informe analítico elaborado en Jupyter Notebook con el objetivo de apoyar al Sr. Juan, dueño de una cadena de tiendas, a tomar una decisión estratégica respecto a cuál de sus cuatro tiendas mantener o vender. El análisis se basa en datos de ventas, productos, clientes, métodos de pago y logística desde el año 2020 al 2023.
-
+Todo el contenido es para fines educativos y obtener nota final para el curso:  
 ---
 
-## 🧠 Objetivo
+##  Objetivo.
 
 Evaluar el desempeño comercial y operativo de las tiendas, identificando:
 - Ingresos anuales y totales por tienda.
@@ -16,7 +16,7 @@ Evaluar el desempeño comercial y operativo de las tiendas, identificando:
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas.
 
 - Python 3
 - Pandas
@@ -27,7 +27,7 @@ Evaluar el desempeño comercial y operativo de las tiendas, identificando:
 
 ---
 
-## ▶️ Ejecutar en Google Colab
+## ▶️ Ejecutar en Google Colab.
 
 Haz clic en el siguiente botón para abrir directamente el notebook:
 
@@ -35,23 +35,23 @@ Haz clic en el siguiente botón para abrir directamente el notebook:
 
 ---
 
-## 📁 Estructura del Notebook
+## 📁 Estructura del Notebook.
 
 El análisis está dividido en secciones:
 
-- 📥 Importación y exploración de datos
-- 📈 Cálculos solicitados y complementarios
-- 🧾 Análisis de clientes y productos
-- 🌍 Geolocalización y riesgos estratégicos
-- 📌 Conclusiones y recomendaciones
+- 📥 Importación y exploración de datos.
+- 📈 Cálculos solicitados y complementarios.
+- 🧾 Análisis de clientes y productos.
+- 🌍 Geolocalización y riesgos estratégicos.
+- 📌 Conclusiones y recomendaciones.
 
 ---
 
-## 🖼️ Capturas del Informe
+## 🖼️ Capturas del Informe.
 
 Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 
-### 📸 Gráficos sugeridos
+### 📸 Gráficos sugeridos.
 
 ```markdown
 #### 1. Ventas Totales por Tienda

@@ -1,5 +1,8 @@
+---
 # 📒 CHALLENGE : Alura Store LATAM - Análisis de Rendimiento de Tiendas.
 
+![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/Imagen_distintiva_alurastore.png)
+---
 ## 🚧 Estado del proyecto. 
 **En construcción.**  
 
@@ -28,23 +31,18 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 - Gráficos que faciliten la comprensión de los hallazgos.
 
 ## 🖥️ Imagen Distintiva del Proyecto.
-![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/Imagen_distintiva_alurastore.png)
+![Banner del proyecto]()
 
 ---
 
-## 📁 Estructura del Notebook.
+## 🖥️ 🖼️ 📁 Preview Estructura del Notebook.
 
 El análisis está dividido en secciones:
 
-- 📥 Importación y exploración de datos.
-- 📈 Cálculos solicitados y complementarios.
-- 🧾 Análisis de clientes y productos.
-- 🌍 Geolocalización y riesgos estratégicos.
-- 📌 Conclusiones y recomendaciones.
-
+- 💾 Importación y exploración de datos.
+- 🧮 Cálculos solicitados, complementarios y exploratorios.
+- 🧾 Informe análisis de rendimiento.
 ---
-
-## 🖼️ Capturas del Informe.
 
 Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 

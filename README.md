@@ -1,7 +1,7 @@
 ---
 # 📒 CHALLENGE : Alura Store LATAM - Análisis de Rendimiento de Tiendas.
 
-![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/Imagen_distintiva_alurastore.png)
+![Banner del proyecto]()
 ---
 ## 🚧 Estado del proyecto. 
 **En construcción.**  
@@ -45,7 +45,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 🟢 Cálculos solicitados, complementarios y exploratorios.
 
-![Imagen_calculos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/imagen_calculo_AluraStore.png)
+![Imagen_calculos]()
 
 🟢 Informe análisis de rendimiento.
 

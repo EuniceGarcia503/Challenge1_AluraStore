@@ -43,41 +43,26 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
   
 ![Imagen_base1](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/base_datos_readme.png)
 
+![Imagen base2]()
+
 🟢 Cálculos solicitados, complementarios y exploratorios.
 
 ![Imagen_calculos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/calculos_readme.png)
+
+![Imagen calculos2]()
 
 🟢 Informe análisis de rendimiento.
 
 ![Imagen informe](https://github.com/EuniceGarcia503/Challenge1_AluraStore/blob/main/Imagenes_AluraStore/analisis_readme.png)
 
+![Imagen informe2]()
+
 🟢 Gráficos. A los cuales se accede desde el índice en la sección del informe.
+
+![Imagen graficos2]()
 
 ![Imagen graficos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/geolocalizacion_readme.png)
 
-Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
-
-### 📸 Gráficos sugeridos.
-
-```markdown
-#### 1. Ventas Totales por Tienda
-![Gráfico Ventas Totales](Imagenes_AluraStore/grafico_ventas_totales.png)
-
-#### 2. Ventas Anuales por Tienda
-![Gráfico Ventas Anuales](Imagenes_AluraStore/grafico_ventas_anuales_tienda.png)
-
-#### 3. Contribución por Categoría en las Ventas Totales
-![Gráfico Categorías](Imagenes_AluraStore/grafico_contribucion_categorias_tienda.png)
-
-#### 4. Participación del Cliente (Bogotá) en Ventas Anuales por Tienda
-![Gráfico Cliente Participación](Imagenes_AluraStore/grafico_compra_participacion_anual_tienda.png)
-
-#### 5. Canibalización Detectada por Cliente y Año
-![Gráfico Canibalización](Imagenes_AluraStore/grafico_canibalizacion_cliente_year.png)
-
-#### 6. 🌍 Mapa Geolocalización de Clientes
-[Haz clic aquí para ver el mapa interactivo](https://htmlpreview.github.io/?https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/main/Imagenes_AluraStore/mapa_geolocalizacion_clientes.html)
-```
 
 ---
 

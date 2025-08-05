@@ -6,7 +6,7 @@
 ## 🚧 Estado del proyecto. 
 **En construcción.**  
 
-## 📌 Descripción del proyecto.
+## 📌 Descripción del Challenge.
 Este desafío fue diseñado para aplicar de manera práctica los conocimientos adquiridos en los siguientes cursos:  
 - **Python para Data Science: Primeros Pasos.**  
 - **Python para Data Science: Trabajar con funciones,estructuras de datos y excepciones.**  
@@ -35,7 +35,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 ## 🖥️ Preview del Notebook.
 
-👉 El contenido del notebook está dividido en secciones 6 secciones en total que pueden accederse desde un índice:
+👉 El contenido del notebook está dividido en 6 secciones en total que pueden accederse desde un índice:
 
 ![Imagen_indice](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/indice_readme.png)
 
@@ -43,23 +43,21 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
   
 ![Imagen_base1](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/base_datos_readme.png)
 
-![Imagen base2]()
+![Imagen base2](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/bases2_readme.png)
 
 🟢 Cálculos solicitados, complementarios y exploratorios.
 
 ![Imagen_calculos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/calculos_readme.png)
 
-![Imagen calculos2]()
+![Imagen calculos2](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/calculos2_readme.png)
 
 🟢 Informe análisis de rendimiento.
 
 ![Imagen informe](https://github.com/EuniceGarcia503/Challenge1_AluraStore/blob/main/Imagenes_AluraStore/analisis_readme.png)
 
-![Imagen informe2]()
+![Imagen informe2](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/informe2_readme.png)
 
 🟢 Gráficos. A los cuales se accede desde el índice en la sección del informe.
-
-![Imagen graficos2]()
 
 ![Imagen graficos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/geolocalizacion_readme.png)
 

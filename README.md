@@ -1,5 +1,5 @@
 ---
-# 📒 CHALLENGE : Alura Store LATAM - Análisis de Rendimiento de Tiendas.
+# 📒 CHALLENGE : Alura Store LATAM - Análisis de Rendimiento en Tiendas.
 
 ![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/banner2_readme.png)
 ---

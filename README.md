@@ -3,7 +3,7 @@
 
 ![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/banner2_readme.png)
 ---
-## 🚧 Estado del proyecto. 
+## 🚧 Estado del Challenge. 
 **En construcción.**  
 
 ## 📌 Descripción del Challenge.
@@ -65,7 +65,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 ---
 
 
-## 🧰 Tecnologías utilizadas
+## 🧰 Tecnologías Utilizadas.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=fff)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=fff)
@@ -78,6 +78,8 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 ![itertools](https://img.shields.io/badge/itertools-4682B4?style=for-the-badge&logoColor=fff)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=000)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-FA0F00?style=for-the-badge&logo=jupyter&logoColor=fff)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=fff)
+
 
 
 ---
@@ -89,7 +91,7 @@ Haz clic en el siguiente botón para abrir directamente el notebook:
 [![▶️Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam_FINAL_informe_con_graficos.ipynb)
 
 
-## 👩‍💻 Desarrollador del Proyecto.  
+## 👩‍💻 Desarrollador del Challenge.  
 
 <img src="https://github.com/user-attachments/assets/f9a42f94-e38f-46c7-909b-41f080896356" width="110px" style="border-radius: 10px;">
 

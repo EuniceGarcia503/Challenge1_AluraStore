@@ -1,7 +1,7 @@
 ---
 # 📒 CHALLENGE : Alura Store LATAM - Análisis de Rendimiento de Tiendas.
 
-![Banner del proyecto]()
+![Banner del proyecto](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/banner2_readme.png)
 ---
 ## 🚧 Estado del proyecto. 
 **En construcción.**  
@@ -89,7 +89,7 @@ Haz clic en el siguiente botón para abrir directamente el notebook:
 [![▶️Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam_FINAL_informe_con_graficos.ipynb)
 
 
-## 👩‍💻 Persona desarrolladora del proyecto.  
+## 👩‍💻 Desarrollador del Proyecto.  
 
 <img src="https://github.com/user-attachments/assets/f9a42f94-e38f-46c7-909b-41f080896356" width="110px" style="border-radius: 10px;">
 
@@ -98,7 +98,7 @@ Haz clic en el siguiente botón para abrir directamente el notebook:
 
 **Loida Eunice García Dimas.**  
 Alumna del programa **Oracle Next Education** de **Alura Latam.**  
-Inscrita en el curso **Principiantes en Programación G8-ONE.**  
+Inscrita en el curso **Modelado de Datos con Python G8-ONE.**  
 
 ## 📜 Licencia.  
 Este proyecto es de **propiedad exclusiva de Loida Eunice García Dimas**.  

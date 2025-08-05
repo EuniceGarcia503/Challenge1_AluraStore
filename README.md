@@ -37,7 +37,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 👉 El contenido del notebook está dividido en secciones 6 secciones en total que pueden accederse desde un índice:
 
-![Imagen_indice]()
+![Imagen_indice](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/indice_readme.png)
 
 🟢 Importación y exploración de datos.
   
@@ -45,7 +45,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 🟢 Cálculos solicitados, complementarios y exploratorios.
 
-![Imagen_calculos]()
+![Imagen_calculos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/calculos_readme.png)
 
 🟢 Informe análisis de rendimiento.
 

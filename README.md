@@ -35,7 +35,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 ## 🖥️ Preview del Notebook.
 
-👉 El contenido del notebook está dividido en 6 secciones en total que pueden accederse desde un índice:
+🟢 El contenido del notebook está dividido en 6 secciones en total que pueden accederse desde un índice:
 
 ![Imagen_indice](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/indice_readme.png)
 

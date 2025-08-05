@@ -41,7 +41,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 🟢 Importación y exploración de datos.
   
-![Imagen_base]()
+![Imagen_base1](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/base_datos_readme.png)
 
 🟢 Cálculos solicitados, complementarios y exploratorios.
 

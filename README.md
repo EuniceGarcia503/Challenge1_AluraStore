@@ -88,7 +88,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 Haz clic en el siguiente botón para abrir directamente el notebook:
 
-[![▶️Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam_FINAL_informe_con_graficos.ipynb)
+[![▶️Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/EuniceGarcia503/Challenge1_AluraStore/blob/main/AluraStoreLatam.ipynb)
 
 
 ## 👩‍💻 Desarrollador del Challenge.  

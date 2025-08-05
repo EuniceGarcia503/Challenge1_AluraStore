@@ -49,7 +49,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 🟢 Informe análisis de rendimiento.
 
-![Imagen informe]()
+![Imagen informe](https://github.com/EuniceGarcia503/Challenge1_AluraStore/blob/main/Imagenes_AluraStore/analisis_readme.png)
 
 🟢 Gráficos. A los cuales se accede desde el índice en la sección del informe.
 

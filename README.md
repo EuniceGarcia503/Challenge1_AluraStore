@@ -41,11 +41,11 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 🟢 Importación y exploración de datos.
   
-![Imagen_calculos]()
+![Imagen_base]()
 
 🟢 Cálculos solicitados, complementarios y exploratorios.
 
-![Imagen_indice]()
+![Imagen_calculos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/imagen_calculo_AluraStore.png)
 
 🟢 Informe análisis de rendimiento.
 

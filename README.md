@@ -53,7 +53,7 @@ Se solicitó basar el análisis en los registros de ventas de cada tienda, y con
 
 🟢 Gráficos. A los cuales se accede desde el índice en la sección del informe.
 
-![Imagen graficos]()
+![Imagen graficos](https://raw.githubusercontent.com/EuniceGarcia503/Challenge1_AluraStore/refs/heads/main/Imagenes_AluraStore/img_geolocalizaci%C3%B3n.png)
 
 Debajo se incluyen celdas para agregar visualizaciones clave del análisis.
 
